@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  align-items: flex-start;
+}
+
+textarea,
+input {
+  align-self: normal;
+  display: flex;
+  margin-bottom: 1em;
+  background: white;
+  border: 1px solid #e1e1e1;
+  padding: 0.5em;
+  color: #393e46;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  align-self: end;
+  background: #00adb5;
+  color: white;
+  border: none;
+  padding: 0.3em 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

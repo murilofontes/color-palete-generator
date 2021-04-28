@@ -1,12 +1,15 @@
 import React from 'react';
-import ColorsList from './components/ColorsList'
-import Form from './components/Form'
+import ListColors from './components/ListColors/ListColors';
+import Form from './components/Form/Form';
+import Header from './components/Header/Header';
+
 function App ()
 {
   return (
-    <div>
-      <ColorsList />
+    <div class="main-container">
+      <Header />
       <Form />
+      <ListColors />
     </div>
   );
 }

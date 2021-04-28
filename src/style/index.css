@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #393e46;
+}
+
+code {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+  display: grid;
+}

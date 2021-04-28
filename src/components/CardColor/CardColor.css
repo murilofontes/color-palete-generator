@@ -1,0 +1,10 @@
+.card-color {
+  background-color: #eeeeee;
+  color: #393e46;
+  padding: 1em;
+}
+
+.card-color__square {
+  background-color: #aad8d3;
+  padding: 2em;
+}
