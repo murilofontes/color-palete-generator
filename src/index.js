@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/index.css';
-import './style/reset.css';
-import './style/normalize.css';
+import './assets/stylesheets/index.css';
+import './assets/stylesheets/reset.css';
+import './assets/stylesheets/normalize.css';
 
 import App from './App';
 

@@ -1,0 +1,31 @@
+.category-list {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 1em;
+
+}
+
+.category__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1em;
+}
+
+.category__item {
+  background-color: #393e46;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 1em 2em;
+  font-size: 10px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.category__item:hover {
+  background-color: #00adb5;
+  color: #393e46;
+}

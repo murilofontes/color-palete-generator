@@ -1,0 +1,15 @@
+.header {
+  margin: 2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #aad8d3;
+}
+
+p {
+  font-size: 1em;
+  text-transform: lowercase;
+}

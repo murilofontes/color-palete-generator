@@ -6,12 +6,12 @@ class ListColors extends Component
   render ()
   {
     return (
-      <div class="card-list">
-        {Array.of("Amarelo", "Vermelho", "Anil").map((color, index) =>
+      <div className="card-list">
+        {this.props.colors.map((color, index) =>
         {
           return (
             <div className="card-color" key={index}>
-              <CardColor />
+              <CardColor deletePalete={this.props.deletePalete} index={index} title={color.title} text={color.text} />
             </div>
           )
         })}

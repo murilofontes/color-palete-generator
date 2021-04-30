@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import "./CardColor.css";
+import {ReactComponent as DeleteSVG} from "../../assets/images/icon-delete.svg"
+
 class CardColor extends Component
 {
+  delete () {
+    this.props.deletePalete(this.props.index)
+  }
   render ()
   {
     return (
       <div className="card-color">
-        <p>Note</p>
-        <div className="card-color__square"></div>
+        <DeleteSVG onClick={this.delete.bind(this)} />
+        <p>{this.props.title}</p>
+        <div className="card-color__square">{this.props.text}</div>
       </div>
     )
   }

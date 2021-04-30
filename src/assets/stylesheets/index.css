@@ -12,4 +12,7 @@ code {
 
 .main-container {
   display: grid;
+  grid-gap: 3em;
+  grid-auto-flow: column;
+  align-items: center;
 }
